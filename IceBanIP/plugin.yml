@@ -1,0 +1,20 @@
+name: IceBanIP
+main: me.icedave.icebanip.IceBanIP
+version: 1.0
+author: IceDave
+permissions:
+    ice.ipban:
+        description: access to IceBanIP plugin to ban players ip address
+commands:
+    iceip:
+        description: shows the IP-Address for the given playername
+        usage: /<command> <playerName>
+    iceban:
+        description: bans the given IP-Address
+        usage: /<command> <playerName>
+    icebk:
+        description: bans the player IP and kick him from the server
+        usage: /<command> <playername>
+    icelist:
+        description: gives a list with all playernames and IP-Adresses
+        usage: /<command> <all>
